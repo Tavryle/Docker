@@ -1,0 +1,2 @@
+docker run -d -p 3000:3000 --name Abathur -v /home/:/root -e FLASK_APP=app.py -w /root python:2-slim bash -c "apt update && apt upgrade -y && python -m pip install --upgrade pip && pip install flask && flask run -h 0.0.0.0 -p 3000"
+
