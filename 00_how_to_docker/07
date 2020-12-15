@@ -1,1 +1,1 @@
-docker inspect -f "{{ .NetworkSetting.IPAddress }}" overlord
+docker inspect -f '{{.NetworkSettings.IPAddress}}' overlord
