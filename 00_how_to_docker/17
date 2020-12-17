@@ -1,1 +1,1 @@
-docker-machine ls
+docker container ls
